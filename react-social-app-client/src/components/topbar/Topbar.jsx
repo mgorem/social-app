@@ -4,19 +4,21 @@ import { Search, Person, Chat, Notifications } from "@material-ui/icons"
 export default function Topbar() {
   return (
     <div className="topbarContainer">
+
+      {/* Left Side of Top Bar */}
         <div className="topbarLeft">
-          <span className="logo">Orem Social verse</span>
+          <span className="logo">OrVerse</span>
         </div>
 
-        
+        {/* Center of Top Bar */}
         <div className="topbarCenter">
-          <div className="searchbar">
-            <Search />
-            <input placeholder="search for friends posts or any video" className="searchInput" />
+          <div className="searchBar">
+            <Search className="searchIcon"/>
+            <input placeholder="search for friends, posts or any video" className="searchInput" />
           </div>
         </div>
 
-
+        {/* Right Side of Top Bar */}
         <div className="topbarRight">
           <div className="topbarLinks">
             <span className="topbarLink">Homepage</span>
@@ -37,8 +39,8 @@ export default function Topbar() {
               <span className="topbarIconBadge">5</span>
             </div>
           </div>
+          <img src="/assets/person/pp.jpg" alt="" className="topbarImage" />
         </div>
-        <img src="/assets/person/pp.jpg" alt="" className="topbarImage" />
     </div>
   )
 }
