@@ -1,0 +1,8 @@
+.leftContainer {
+    flex: 3;
+    height: calc(100vh - 50px);
+}
+.leftWrapper {
+    padding: 20px;
+    background-color: aqua;
+}

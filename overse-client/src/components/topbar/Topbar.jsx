@@ -5,12 +5,12 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
 
-      {/* Left Side of Top Bar */}
+      {/* Top Bar Left Side */}
         <div className="topbarLeft">
           <span className="logo">OrVerse</span>
         </div>
 
-        {/* Center of Top Bar */}
+        {/* Top Bar Center */}
         <div className="topbarCenter">
           <div className="searchBar">
             <Search className="searchIcon"/>
@@ -18,7 +18,7 @@ export default function Topbar() {
           </div>
         </div>
 
-        {/* Right Side of Top Bar */}
+        {/* Top Bar Right Side */}
         <div className="topbarRight">
           <div className="topbarLinks">
             <span className="topbarLink">Homepage</span>
@@ -39,7 +39,7 @@ export default function Topbar() {
               <span className="topbarIconBadge">5</span>
             </div>
           </div>
-          <img src="/assets/person/pp.jpg" alt="" className="topbarImage" />
+          <img src="/assets/person/pp13.jpg" alt="" className="topbarImage" />
         </div>
     </div>
   )
