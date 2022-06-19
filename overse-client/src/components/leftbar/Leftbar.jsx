@@ -5,8 +5,9 @@ import React from 'react'
 const Leftbar = () => {
   return (
     <div className='leftContainer'>
-        <div className="leftWrapper">
-          It's a Wrapper
+        <div className="leftBarWrapper">
+          .
+          Left Side Wrapper
         </div>
     </div>
   )
